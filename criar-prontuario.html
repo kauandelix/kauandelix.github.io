@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Prontuário - Sistema de Clínicas</title>
+    <link rel="stylesheet" href="criar-prontuario.css">
+</head>
+<body>
+    <img src="logo.png" alt="Logo da Clínica">
+    <div class="login">
+        <a href="login.html">Logout</a>
+    </div>
+    <div class="container">
+        <form action="#" method="POST" class="form-box">
+            <h2>Dados do Paciente</h2>
+            <label for="nome-paciente">Nome do Paciente</label>
+            <input type="text" id="nome-paciente" name="nome-paciente" required>
+
+            <label for="data-consulta">Data da Consulta</label>
+            <input type="date" id="data-consulta" name="data-consulta" required>
+
+            <label for="diagnostico">Diagnóstico</label>
+            <textarea id="diagnostico" name="diagnostico" rows="4" required></textarea>
+
+            <label for="tratamento">Tratamento</label>
+            <textarea id="tratamento" name="tratamento" rows="4" required></textarea>
+
+            <button type="submit">Criar Prontuário</button>
+        </form>
+    </div>
+</body>
+</html>
